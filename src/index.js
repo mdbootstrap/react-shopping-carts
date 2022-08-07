@@ -5,6 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import Basic from './basic/Basic';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
+import QuantityEdit from './quantityEdit/QuantityEdit';
+import PaymentMethods from './paymentMethods/PaymentMethods';
+import ProductCards from './productCards/ProductCards';
+import CartCheckout from './cartCheckout/CartCheckout';
+import ReviewPage from './reviewPage/ReviewPage';
+import SummaryPage from './summaryPage/SummaryPage';
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -15,6 +21,12 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/basic" element={<Basic />} />
+        <Route path="/quantity" element={<QuantityEdit />} />
+        <Route path="/payment" element={<PaymentMethods />} />
+        <Route path="/product-cards" element={<ProductCards />} />
+        <Route path="/cart-checkout" element={<CartCheckout />} />
+        <Route path="/review-page" element={<ReviewPage />} />
+        <Route path="/summary-page" element={<SummaryPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

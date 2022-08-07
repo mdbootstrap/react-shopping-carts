@@ -10,6 +10,36 @@ export default function App() {
           Basic
         </MDBBtn>
       </Link>
+      <Link to="/quantity">
+        <MDBBtn className="m-3">
+          Quantity edit
+        </MDBBtn>
+      </Link>
+      <Link to="/payment">
+        <MDBBtn className="m-3">
+          Payment methods
+        </MDBBtn>
+      </Link>
+      <Link to="/product-cards">
+        <MDBBtn className="m-3">
+          Product Cards
+        </MDBBtn>
+      </Link>
+      <Link to="/cart-checkout">
+        <MDBBtn className="m-3">
+          Cart checkout
+        </MDBBtn>
+      </Link>
+      <Link to="/review-page">
+        <MDBBtn className="m-3">
+          Review Page
+        </MDBBtn>
+      </Link>
+      <Link to="/summary-page">
+        <MDBBtn className="m-3">
+          Summary Page
+        </MDBBtn>
+      </Link>
     </MDBContainer>
   );
 }
