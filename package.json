@@ -1,8 +1,7 @@
 {
-  "name": "mdb-react-template",
-  "version": "4.0.0",
-  "description": "template for mdb-react-ui-kit",
-  "private": true,
+  "name": "@mdbootstrap/react-shopping-carts",
+  "version": "1.0.0",
+  "description": "Responsive Shopping Carts built with Bootstrap 5. Multiple examples of various designs and functionalities. Ready to use pages and templates.",
   "dependencies": {
     "mdb-react-ui-kit": "^4.0.0",
     "react": "^18.1.0",
@@ -18,6 +17,10 @@
     "eject": "react-scripts eject"
   },
   "keywords": [
+    "bootstrap",
+    "bootstrap5",
+    "responsive-design",
+    "bootstrap-template",
     "template",
     "react"
   ],
