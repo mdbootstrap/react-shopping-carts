@@ -1,7 +1,7 @@
 
 Responsive Shopping Carts built with Bootstrap 5. Multiple examples of various designs and functionalities. Ready to use pages and templates.
 
-Check out [Bootstrap Shopping Carts Documentation](https://mdbootstrap.com/docs/standard/extended/shopping-carts/) for detailed instructions & even more examples.
+Check out [Bootstrap Shopping Carts Documentation](https://mdbootstrap.com/docs/react/extended/shopping-carts/) for detailed instructions & even more examples.
 
 ## Basic example
 
